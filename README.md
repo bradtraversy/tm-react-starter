@@ -1,7 +1,5 @@
 # TM Create-React-App
 
-## Available Scripts
-
 Custom version of create-react-app with some changes and additions
 
 ## Changes
