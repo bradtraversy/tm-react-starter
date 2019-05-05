@@ -1,8 +1,48 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TM Create-React-App
 
 ## Available Scripts
 
-In the project directory, you can run:
+Custom version of create-react-app with some changes and additions
+
+## Changes
+
+- Removed index.css, serviceworker, logo and App.test
+- Installed React Router v4
+- App.js changes (Added Header, Route, arrow function)
+- Added a components folder with Header, Home & Spinner
+- Added base styles in App.css for buttons, backgrounds, etc (Remove if needed)
+- Added Font Awesome to public/index.html
+
+## Usage
+
+Clone repo and run
+
+```
+npm install
+```
+
+### File Structure
+
+```
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src
+    ├── components
+        ├── layout
+            ├── Header.js
+            ├── Spinner.js
+        ├── pages
+            ├── Home.js
+    ├── App.css
+    ├── App.js
+    ├── index.js
+```
 
 ### `npm start`
 
