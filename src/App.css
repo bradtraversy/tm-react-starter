@@ -130,7 +130,7 @@ img {
 	margin: 3rem 0;
 }
 
-.btn {
+.btn, button {
 	display: inline-block;
 	background: var(--light-color);
 	color: #333;
@@ -228,22 +228,22 @@ img {
 }
 
 /* Forms */
-.form .form-group {
+input {
 	margin: 1.2rem 0;
 }
 
-.form .form-text {
+.form-text {
 	display: block;
 	margin-top: 0.3rem;
 	color: #888;
 }
 
-.form input[type='text'],
-.form input[type='email'],
-.form input[type='password'],
-.form input[type='date'],
-.form select,
-.form textarea {
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
+select,
+textarea {
 	display: block;
 	width: 100%;
 	padding: 0.4rem;
@@ -252,22 +252,19 @@ img {
 	border-radius: 5px;
 }
 
-.form input[type='submit'],
+input[type='submit'],
 button {
 	font: inherit;
 }
 
-.form .social-input {
-	display: flex;
-}
 
-.table th,
-.table td {
+table th,
+table td {
 	padding: 1rem;
 	text-align: left;
 }
 
-.table th {
+table th {
 	background: var(--light-color);
 }
 
