@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 const Home = () => (
 	<Fragment>
-		<p class='lead'>
+		<p className='lead'>
 			This is a standard create-react-app with some modifications
 		</p>
 		<p>
